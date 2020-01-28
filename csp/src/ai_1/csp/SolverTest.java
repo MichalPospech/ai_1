@@ -166,4 +166,7 @@ public class SolverTest {
             test1() && test2() && test3() && test4() && test5())
             System.out.println("all tests succeeded");
     }
+    public static void main(String[] args) {
+        test(new String[]{});
+    }
 }
